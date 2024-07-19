@@ -6,6 +6,8 @@ use App\Http\Controllers\SommaireController;
 use App\Http\Controllers\PanierController;
 use App\Http\Controllers\ReservationController;
 use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\OperationController;
+use App\Http\Controllers\ProblemeController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\FormationController;
 use App\Http\Controllers\CommandeController;
@@ -60,6 +62,28 @@ Route::get('/supprimer/{id}/{unique}/{nul}', [PanierController::class, 'destroy'
 Route::get('/fiche/{id}/{unique}/{nul}', [FormationController::class, 'show'])->name('file');
 
 Route::post('/save/{id}/{unique}/{nul}', [FormationController::class, 'store'])->name('savee');
+
+
+
+Route::get('/augmenter', [OperationController::class, 'chier'])->name('chier');
+
+Route::get('/adddad', [ProblemeController::class, 'ajoutttt'])->name('adddd');
+
+Route::get('/consullltt', [OperationController::class, 'consulter'])->name('consulttt');
+
+Route::get('/shoooow', [ProblemeController::class, 'showwww'])->name('displayyy');
+
+Route::post('/stooore', [OperationController::class, 'storeee'])->name('saveee');
+
+Route::post('/bilaaann', [OperationController::class, 'showww'])->name('displayy');
+
+Route::get('/updattteee/{id}/{date}', [OperationController::class, 'summaryyy'])->name('summaryyy');
+
+Route::post('/storrreeee', [ProblemeController::class, 'storeeee'])->name('saveeee');
+
+Route::get('/updaaaattte/{id}', [ProblemeController::class, 'summaryyyy'])->name('summaryyyy');
+
+
 
 Route::post('/save', [ProduitController::class, 'store'])->name('save');
 

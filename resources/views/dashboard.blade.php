@@ -11,7 +11,7 @@
         <meta charset="utf-8">
         <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title> Les entreprises Maelo</title>
+        <title> Brocante Dongmo</title>
         <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
         <link rel="stylesheet" href="{{ asset('css/all.min.css') }}">
         <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
@@ -82,7 +82,7 @@
                             <div class="text-center" >
                             
                                 
-                                    <img src="{{asset('content/boutique/fond 2.jpg')}}" />
+                                    <img src="{{asset('css/fond 2.jpg')}}" />
                                 
                             </div>
                             <div class="detail p-2">
@@ -103,13 +103,13 @@
                                 <div class="row pt-2">
                                     <div class="col-md-6">
                                         <a href="{{ route('produit') }}">
-                                            <button class="btn mb-2 fw-bold w-100 btn-danger">Consultez</button>
+                                            <button class="btn mb-2 fw-bold w-100 btn-danger"style="background-color: purple; color: white;">Consultez</button>
                                         </a>
                                     </div>
                                     <div class="col-md-6">
                                 
                                         <a href="">
-                                          <button class="btn fw-bold w-100 btn-outline-danger">Nombre de produit : {{ $a }}</button>
+                                          <button class="btn fw-bold w-100 btn-outline-danger"style="background-color: purple; color: white;">Nombre de produit : {{ $a }}</button>
                                         </a>
                                     </div>
                                 </div>
@@ -122,7 +122,7 @@
                             <div class="text-center" >
                             
                                 
-                                    <img src="{{asset('content/boutique/cybersecurite.jpg')}}" />
+                                    <img src="{{asset('css/cybersecurite.jpg')}}" />
                                 
                             </div>
                             <div class="detail p-2">
@@ -143,13 +143,13 @@
                                 <div class="row pt-2">
                                     <div class="col-md-6">
                                         <a href="{{ route('add') }}">
-                                            <button class="btn mb-2 fw-bold w-100 btn-danger">Ajout</button>
+                                            <button class="btn mb-2 fw-bold w-100 btn-danger"style="background-color: purple; color: white;">Ajout</button>
                                         </a>
                                     </div>
                                     <div class="col-md-6">
                                 
                                         <a href="">
-                                          <button class="btn fw-bold w-100 btn-outline-danger">Nombre de produit : {{ $a }}</button>
+                                          <button class="btn fw-bold w-100 btn-outline-danger"style="background-color: purple; color: white;">Nombre de produit : {{ $a }}</button>
                                         </a>
                                     </div>
                                 </div>
@@ -162,7 +162,7 @@
                             <div class="text-center" >
                             
                                 
-                                    <img src="{{asset('content/boutique/datascience.jpg')}}" />
+                                    <img src="{{asset('css/datascience.jpg')}}" />
                                 
                             </div>
                             <div class="detail p-2">
@@ -183,13 +183,13 @@
                                 <div class="row pt-2">
                                     <div class="col-md-6">
                                         <a href="{{ route('waiting') }}">
-                                            <button class="btn mb-2 fw-bold w-100 btn-danger">Consultez</button>
+                                            <button class="btn mb-2 fw-bold w-100 btn-danger"style="background-color: purple; color: white;">Consultez</button>
                                         </a>
                                     </div>
                                     <div class="col-md-6">
                                 
                                         <a href="">
-                                          <button class="btn fw-bold w-100 btn-outline-danger">Nombre de Commande : {{ $b }}</button>
+                                          <button class="btn fw-bold w-100 btn-outline-danger"style="background-color: purple; color: white;">Nombre de Commande : {{ $b }}</button>
                                         </a>
                                     </div>
                                 </div>
@@ -202,7 +202,7 @@
                             <div class="text-center" >
                             
                                 
-                                    <img src="{{asset('content/boutique/application.jpg')}}" />
+                                    <img src="{{asset('css/application.jpg')}}" />
                                 
                             </div>
                             <div class="detail p-2">
@@ -223,13 +223,13 @@
                                 <div class="row pt-2">
                                     <div class="col-md-6">
                                         <a href="{{ route('complet') }}">
-                                            <button class="btn mb-2 fw-bold w-100 btn-danger">Consultez</button>
+                                            <button class="btn mb-2 fw-bold w-100 btn-danger"style="background-color: purple; color: white;">Consultez</button>
                                         </a>
                                     </div>
                                     <div class="col-md-6">
                                 
                                         <a href="">
-                                          <button class="btn fw-bold w-100 btn-outline-danger">Nombre de Commande : {{ $c }}</button>
+                                          <button class="btn fw-bold w-100 btn-outline-danger"style="background-color: purple; color: white;">Nombre de Commande : {{ $c }}</button>
                                         </a>
                                     </div>
                                 </div>
@@ -242,7 +242,7 @@
                             <div class="text-center" >
                             
                                 
-                                    <img src="{{asset('content/boutique/web.jpg')}}" />
+                                    <img src="{{asset('css/web.jpg')}}" />
                                 
                             </div>
                             <div class="detail p-2">
@@ -263,13 +263,13 @@
                                 <div class="row pt-2">
                                     <div class="col-md-6">
                                         <a href="{{ route('zubete') }}">
-                                            <button class="btn mb-2 fw-bold w-100 btn-danger">Consultez</button>
+                                            <button class="btn mb-2 fw-bold w-100 btn-danger"style="background-color: purple; color: white;">Consultez</button>
                                         </a>
                                     </div>
                                     <div class="col-md-6">
                                 
                                         <a href="">
-                                          <button class="btn fw-bold w-100 btn-outline-danger">Nombre de Souscriptions terminées : {{ $j }} </button>
+                                          <button class="btn fw-bold w-100 btn-outline-danger"style="background-color: purple; color: white;">Nombre de Souscriptions terminées : {{ $j }} </button>
                                         </a>
                                     </div>
                                 </div>
@@ -282,7 +282,7 @@
                             <div class="text-center" >
                             
                                 
-                                    <img src="{{asset('content/boutique/datascience.jpg')}}" />
+                                    <img src="{{asset('css/datascience.jpg')}}" />
                                 
                             </div>
                             <div class="detail p-2">
@@ -303,13 +303,142 @@
                                 <div class="row pt-2">
                                     <div class="col-md-6">
                                         <a href="{{ route('list') }}">
-                                            <button class="btn mb-2 fw-bold w-100 btn-danger">Consultez</button>
+                                            <button class="btn mb-2 fw-bold w-100 btn-danger"style="background-color: purple; color: white;">Consultez</button>
                                         </a>
                                     </div>
                                     <div class="col-md-6">
                                 
                                         <a href="">
-                                          <button class="btn fw-bold w-100 btn-outline-danger">Nombre de Message : {{ $v }}</button>
+                                          <button class="btn fw-bold w-100 btn-outline-danger"style="background-color: purple; color: white;">Nombre de Message : {{ $v }}</button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mb-4" >
+                        <div class="bg-white p-2 shadow-md">
+                            <div class="text-center" >
+                            
+                                
+                                    <img src="{{asset('css/fond 2.jpg')}}" />
+                                
+                            </div>
+                            <div class="detail p-2">
+                                <h4 class="mb-1 fs-5 fw-bold">Ajouter une Opération</h4>
+                                
+                                <ul class="mt-0 vgth">
+                                    <li class="fs-8">
+                                        <i class="bi text-warning bi-star-fill"></i>
+                                        <i class="bi text-warning bi-star-fill"></i>
+                                        <i class="bi text-warning bi-star-fill"></i>
+                                        <i class="bi text-warning bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li class="float-end gvi">
+                                        <i class="bi text-danger bi-heart-fill"></i>
+                                    </li>
+                                </ul>
+                                <div class="row pt-2">
+                                    <div class="col-md-6">
+                                        <a href="{{ route('chier') }}">
+                                            <button class="btn mb-2 fw-bold w-100 btn-danger"style="background-color: purple; color: white;">Ajout</button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 mb-4" >
+                        <div class="bg-white p-2 shadow-md">
+                            <div class="text-center" >
+                            
+                                    <img src="{{asset('css/cybersecurite.jpg')}}" />
+                            </div>
+                            <div class="detail p-2">
+                                <h4 class="mb-1 fs-5 fw-bold">Ajouter un problème</h4>
+                                
+                                <ul class="mt-0 vgth">
+                                    <li class="fs-8">
+                                        <i class="bi text-warning bi-star-fill"></i>
+                                        <i class="bi text-warning bi-star-fill"></i>
+                                        <i class="bi text-warning bi-star-fill"></i>
+                                        <i class="bi text-warning bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li class="float-end gvi">
+                                        <i class="bi text-danger bi-heart-fill"></i>
+                                    </li>
+                                </ul>
+                                <div class="row pt-2">
+                                    <div class="col-md-6">
+                                        <a href="{{ route('adddd') }}">
+                                            <button class="btn mb-2 fw-bold w-100 btn-danger"style="background-color: purple; color: white;">Ajout</button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 mb-4" >
+                        <div class="bg-white p-2 shadow-md">
+                            <div class="text-center" >
+                            
+                                    <img src="{{asset('css/fond 2.jpg')}}" />
+                            </div>
+                            <div class="detail p-2">
+                                <h4 class="mb-1 fs-5 fw-bold">BILAN</h4>
+                                
+                                <ul class="mt-0 vgth">
+                                    <li class="fs-8">
+                                        <i class="bi text-warning bi-star-fill"></i>
+                                        <i class="bi text-warning bi-star-fill"></i>
+                                        <i class="bi text-warning bi-star-fill"></i>
+                                        <i class="bi text-warning bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li class="float-end gvi">
+                                        <i class="bi text-danger bi-heart-fill"></i>
+                                    </li>
+                                </ul>
+                                <div class="row pt-2">
+                                    <div class="col-md-6">
+                                        <a href="{{ route('consulttt') }}">
+                                            <button class="btn mb-2 fw-bold w-100 btn-danger"style="background-color: purple; color: white;">CONSULTEZ</button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 mb-4" >
+                        <div class="bg-white p-2 shadow-md">
+                            <div class="text-center" >
+                            
+                                    <img src="{{asset('css/cybersecurite.jpg')}}" />
+                            </div>
+                            <div class="detail p-2">
+                                <h4 class="mb-1 fs-5 fw-bold">Liste des problèmes</h4>
+                                
+                                <ul class="mt-0 vgth">
+                                    <li class="fs-8">
+                                        <i class="bi text-warning bi-star-fill"></i>
+                                        <i class="bi text-warning bi-star-fill"></i>
+                                        <i class="bi text-warning bi-star-fill"></i>
+                                        <i class="bi text-warning bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li class="float-end gvi">
+                                        <i class="bi text-danger bi-heart-fill"></i>
+                                    </li>
+                                </ul>
+                                <div class="row pt-2">
+                                    <div class="col-md-6">
+                                        <a href="{{ route('displayyy') }}">
+                                            <button class="btn mb-2 fw-bold w-100 btn-danger"style="background-color: purple; color: white;">CONSULTEZ</button>
                                         </a>
                                     </div>
                                 </div>
@@ -322,7 +451,7 @@
                             <div class="text-center" >
                             
                                 
-                                    <img src="{{asset('content/boutique/cybersecurite.jpg')}}" />
+                                    <img src="{{asset('css/cybersecurite.jpg')}}" />
                                 
                             </div>
                             <div class="detail p-2">
@@ -343,13 +472,13 @@
                                 <div class="row pt-2">
                                     <div class="col-md-6">
                                         <a href="{{ route('stay') }}">
-                                            <button class="btn mb-2 fw-bold w-100 btn-danger">Consultez</button>
+                                            <button class="btn mb-2 fw-bold w-100 btn-danger"style="background-color: purple; color: white;">Consultez</button>
                                         </a>
                                     </div>
                                     <div class="col-md-6">
                                 
                                         <a href="">
-                                          <button class="btn fw-bold w-100 btn-outline-danger">Nombre de Souscriptions en Attente : {{ $i }} </button>
+                                          <button class="btn fw-bold w-100 btn-outline-danger"style="background-color: purple; color: white;">Nombre de Souscriptions en Attente : {{ $i }} </button>
                                         </a>
                                     </div>
                                 </div>
@@ -364,12 +493,12 @@
                     <div class="col-md-3 foot-about">
                         <h4>A Propos de Nous</h4>
 
-                        <p>Les Entreprises Maelo est une startup qui vous propose des services de qualité dans le domaine de la vente du matériel informatique et les formations de haut niveau avec certification reconnue.</p>
+                        <p>La Brocante Dongmo est une brocante qui importe les marques de qualité Allemande. Elle est opère dans nombreux domaine à l'exemple du domaine électroménager et la vente du matériel informatique. Nos produits sont de qualités supérieures et avec une garantie de un mois.</p>
 
                         <ul>
                             <li>Montée Jouvence, descente Mario en face de Méa Bois</li>
-                            <li>marcellin15kenfack@yahoo.fr</li>
-                            <li>677 78 30 43</li>
+                            <li>faniedonfack@yahoo.fr</li>
+                            <li>652-61-31-09</li>
                         </ul>
                     </div>
 
@@ -381,7 +510,7 @@
                                 <img src="assets/images/blog/1.jpg" alt="">
                             </div>
                             <div class="detail ps-2">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit </p>
+                                <p>Retrouvez nos derniers produits dans la catégorie produit !!! </p>
                             </div>
                         </div>
 
@@ -390,7 +519,7 @@
                                 <img src="assets/images/blog/7.jpg" alt="">
                             </div>
                             <div class="detail p-2">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit </p>
+                                <p>Chaque produit est d'origine Allemande!! </p>
                             </div>
                         </div>
 
@@ -399,7 +528,7 @@
                                 <img src="assets/images/blog/6.jpg" alt="">
                             </div>
                             <div class="detail ps-2">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit </p>
+                                <p>Garantie de un (01) mois !! </p>
                             </div>
                         </div>
                     </div>
@@ -408,7 +537,7 @@
                         <h4>Top Categorie</h4>
 
                         <ul>
-                            <li><a href="">Nos Formations</a></li>
+                            <li><a href="">Nos Produits</a></li>
                             <li><a href="">Matériel Informatique</a></li>
                             <li><a href="">Nos services</a></li>
                             <li><a href="">Nous contactez</a></li>
@@ -442,7 +571,7 @@
     </footer>
     <div class="copy">
         <div class="container">
-            <a href="https://www.smarteyeapps.com/">2024 &copy; All Rights Reserved | Designed and Developed by Les Entreprises Maelo.com</a>
+            <a href="https://www.smarteyeapps.com/">2024 &copy; All Rights Reserved | Designed and Developed by Brocante_Dongmo.com</a>
 
             <span>
                 <a href=""><i class="fab fa-github"></i></a>

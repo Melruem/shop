@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title> Les entreprises Maelo</title>
+        <title>Brocante Dongmo</title>
         <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
         <link rel="stylesheet" href="{{ asset('css/all.min.css') }}">
         <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
@@ -22,14 +22,14 @@
                     <div class="row">
                         <div class="col-md-8">
                             <ul class="d-inline-flex pt-0 pt-md-2 fs-6">
-                                <li class="p-2 "><i class="bi bi-envelope"></i> marcellin15kenfack@yahoo.fr</li>
-                                <li class="p-2 d-none d-md-block"><i class="bi bi-headphones"></i> 677 78 30 43</li>
+                                <li class="p-2 "><i class="bi bi-envelope"></i> Email: faniedonfack@yahoo.fr</li>
+                                <li class="p-2 d-none d-md-block"><i class="bi bi-headphones"></i> 652 61 31 09</li>
                             </ul>
                         </div>
                         <div class="col-md-4 d-flex align-items-end">
                             <ul class="ms-auto d-inline-flex">
-                                <li class="p-2"><a target="_blank" href=""><button class="btn px-4 btn-danger">Login</button></a></li>
-                                <li class="p-2"><a target="_blank" href=""><button class="btn px-4 btn-outline-danger">Sign Up</button></a></li>
+                                <li class="p-2"><a target="_blank" href=""><button class="btn px-4 btn-danger"style="background-color: purple; color: white;">Login</button></a></li>
+                                <li class="p-2"><a target="_blank" href=""><button class="btn px-4 btn-outline-danger"style="background-color: purple; color: white;">Sign Up</button></a></li>
                             </ul>
                         </div>
                     </div>
@@ -40,7 +40,7 @@
                      <div class="row">
                          <div class="col-md-3 col-9 pt-1 pb-2">
                             <a href="index.html">
-                                <img src="{{asset('content/boutique/logoo.jpg')}}" />
+                                <img src="{{asset('css/logoo.JPG')}}" />
                             </a> 
                          </div>
                          <div class="col-md-6 d-none d-md-block pt-2">
@@ -56,14 +56,14 @@
                             @endif
                                  <button type="button" class="btn btn-light shadow-md border position-relative">
                                   <i class="bi fs-4 bi-basket"></i>
-                                  <span class="position-absolute fs-6 top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                  <span class="position-absolute fs-6 top-0 start-100 translate-middle badge rounded-pill bg-danger"style="background-color: purple; color: white;">
                                     @if(isset($test))
                                         {{$test}}
                                     @else
                                         0
                                     @endif
                                   </span>
-                                  <img src="{{asset('content/boutique/cart.jpg')}}" width=100px" />
+                                  <img src="{{asset('css/cart.jpg')}}" width=100px" />
                                 </button>
                              </a>
                             
@@ -75,8 +75,8 @@
             </div>
             
 
-            <div class="menu-bar bg-danger container-fluid border-top">
-                <div class="container">
+            <div class="menu-bar bg-danger container-fluid border-top"style="background-color: purple; color: white;">
+                <div class="container"style="background-color: purple; color: white;">
                    <h6 class="d-md-none text-white p-3 mb-0 fw-bold">Menu 
                   <a class="text-white" data-bs-target="#menu" data-bs-toggle="collapse" aria-expanded="false" aria-controls="menu"><i class="bi cp bi-list float-end fs-1 dmji"></i></a> 
                    </h6>
@@ -124,18 +124,18 @@
                 <div class="col-md-5 text-center">
                     <img src="{{asset($produit->image)}}" width="500px" />
                 </div>
-                <div class="col-md-7">
+                <div class="col-md-7"style="background-color: purple; color: white;">
                     <h2>{{ $produit->nom }}</h2>
                     <p>Appartenant à la dernière génération, ce produit vous donnera une entière satisfaction et sera à la hauteur de vos attentes. Il vous ai aussi offert un mois de garanti.</p>
-                    <b class="fs-3 py-4 text-danger">Prix : CFA {{ $produit->prix }}</b>
+                    <b class="fs-3 py-4 text-danger"style="background-color: purple; color: white;">Prix : CFA {{ $produit->prix }}</b>
                      
                      <ul class="mt-0 mt-2 mb-3 vgth">
                         <li class="fs-8">
-                            <i class="bi text-warning bi-star-fill"><img src="{{asset('content/boutique/star.jpg')}}" width=50pxpx" /></i>
-                            <i class="bi text-warning bi-star-fill"><img src="{{asset('content/boutique/star.jpg')}}" width=50px" /></i>
-                            <i class="bi text-warning bi-star-fill"><img src="{{asset('content/boutique/star.jpg')}}" width=50px" /></i>
-                            <i class="bi text-warning bi-star-fill"><img src="{{asset('content/boutique/star.jpg')}}" width=50px" /></i>
-                            <i class="bi bi-star-fill"><img src="{{asset('content/boutique/star.jpg')}}" width=50px" /></i>
+                            <i class="bi text-warning bi-star-fill"><img src="{{asset('css/star.jpg')}}" width=50pxpx" /></i>
+                            <i class="bi text-warning bi-star-fill"><img src="{{asset('css/star.jpg')}}" width=50px" /></i>
+                            <i class="bi text-warning bi-star-fill"><img src="{{asset('css/star.jpg')}}" width=50px" /></i>
+                            <i class="bi text-warning bi-star-fill"><img src="{{asset('css/star.jpg')}}" width=50px" /></i>
+                            <i class="bi bi-star-fill"><img src="{{asset('css/star.jpg')}}" width=50px" /></i>
                             <span>4,2</span>
                         </li>
                         <li class="float-end gvi">
@@ -154,22 +154,22 @@
                                     <div class="col-md-6">
                                         @if(isset($test))
                                         <a href="{{ route('acheter', [$produit->id, $unique, $test] ) }}">
-                                            <button class="btn mb-2 fw-bold w-100 btn-danger">Achetez</button>
+                                            <button class="btn mb-2 fw-bold w-100 btn-danger"style="background-color: purple; color: white;">Achetez</button>
                                         </a>
                                         @else
                                         <a href="{{ route('acheter', [$produit->id, $unique, $nul] ) }}">
-                                            <button class="btn mb-2 fw-bold w-100 btn-danger">Achetez</button>
+                                            <button class="btn mb-2 fw-bold w-100 btn-danger"style="background-color: purple; color: white;">Achetez</button>
                                         </a>
                                         @endif
                                     </div>
                                     <div class="col-md-6">
                                         @if(isset($test))
                                         <a href="{{ route('increment', [$produit->id, $unique, $test] ) }}">
-                                          <button class="btn fw-bold w-100 btn-outline-danger">Ajouter au Panier</button>
+                                          <button class="btn fw-bold w-100 btn-outline-danger"style="background-color: purple; color: white;">Ajouter au Panier</button>
                                         </a>
                                         @else
                                         <a href="{{ route('increment', [$produit->id, $unique, $nul] ) }}">
-                                          <button class="btn fw-bold w-100 btn-outline-danger">Ajouter au Panier</button>
+                                          <button class="btn fw-bold w-100 btn-outline-danger"style="background-color: purple; color: white;">Ajouter au Panier</button>
                                         </a>
                                         @endif
                                     </div>
@@ -185,11 +185,11 @@
                         <div class="col-md-12 align-items-center col-9 rcolm"> 
                             <div class="review">
                                 <li class="col-8 ratfac">
-                                     <i class="bi text-warning bi-star-fill"><img src="{{asset('content/boutique/star.jpg')}}" width=50px" /></i>
-                                     <i class="bi text-warning bi-star-fill"><img src="{{asset('content/boutique/star.jpg')}}" width=50px" /></i>
-                                     <i class="bi text-warning bi-star-fill"><img src="{{asset('content/boutique/star.jpg')}}" width=50px" /></i>
-                                     <i class="bi bi-star-fill"><img src="{{asset('content/boutique/star.jpg')}}" width=50px" /></i>
-                                     <i class="bi bi-star-fill"><img src="{{asset('content/boutique/star.jpg')}}" width=50px" /></i>
+                                     <i class="bi text-warning bi-star-fill"><img src="{{asset('css/star.jpg')}}" width=50px" /></i>
+                                     <i class="bi text-warning bi-star-fill"><img src="{{asset('css/star.jpg')}}" width=50px" /></i>
+                                     <i class="bi text-warning bi-star-fill"><img src="{{asset('css/star.jpg')}}" width=50px" /></i>
+                                     <i class="bi bi-star-fill"><img src="{{asset('css/star.jpg')}}" width=50px" /></i>
+                                     <i class="bi bi-star-fill"><img src="{{asset('css/star.jpg')}}" width=50px" /></i>
                                  </li>              
                             </div>
                             <h3 class="fs-6 fw-semi mt-2">Vinoth kumar
@@ -210,11 +210,11 @@
                         <div class="col-md-12 align-items-center col-9 rcolm"> 
                             <div class="review">
                                 <li class="col-8 ratfac">
-                                     <i class="bi text-warning bi-star-fill"><img src="{{asset('content/boutique/star.jpg')}}" width=50px" /></i>
-                                     <i class="bi text-warning bi-star-fill"><img src="{{asset('content/boutique/star.jpg')}}" width=50px" /></i>
-                                     <i class="bi text-warning bi-star-fill"><img src="{{asset('content/boutique/star.jpg')}}" width=50px" /></i>
-                                     <i class="bi bi-star-fill"><img src="{{asset('content/boutique/star.jpg')}}" width=50px" /></i>
-                                     <i class="bi bi-star-fill"><img src="{{asset('content/boutique/star.jpg')}}" width=50px" /></i>
+                                     <i class="bi text-warning bi-star-fill"><img src="{{asset('css/star.jpg')}}" width=50px" /></i>
+                                     <i class="bi text-warning bi-star-fill"><img src="{{asset('css/star.jpg')}}" width=50px" /></i>
+                                     <i class="bi text-warning bi-star-fill"><img src="{{asset('css/star.jpg')}}" width=50px" /></i>
+                                     <i class="bi bi-star-fill"><img src="{{asset('css/star.jpg')}}" width=50px" /></i>
+                                     <i class="bi bi-star-fill"><img src="{{asset('css/star.jpg')}}" width=50px" /></i>
                                  </li>              
                             </div>
                             <h3 class="fs-6 fw-semi mt-2">Vinoth kumar
@@ -270,16 +270,16 @@
                 </div>
                 <div class="col-md-7">
                     <h2>{{ $formation->nom }}</h2>
-                    <p>Formation Professionnelle de haut niveau, donné par des experts diplomés des université américaines et avec diplome attestant la fin de formation reconnue nationalement.</p>
-                    <b class="fs-3 py-4 text-danger">Prix : CFA {{ $formation->prix }}</b>
+                    <p>Service executé avec une fiablilité et une rapidité notoire par nos expertys..</p>
+                    
                      
                      <ul class="mt-0 mt-2 mb-3 vgth">
                         <li class="fs-8">
-                            <i class="bi text-warning bi-star-fill"><img src="{{asset('content/boutique/star.jpg')}}" width=50px" /></i>
-                            <i class="bi text-warning bi-star-fill"><img src="{{asset('content/boutique/star.jpg')}}" width=50px" /></i>
-                            <i class="bi text-warning bi-star-fill"><img src="{{asset('content/boutique/star.jpg')}}" width=50px" /></i>
-                            <i class="bi text-warning bi-star-fill"><img src="{{asset('content/boutique/star.jpg')}}" width=50px" /></i>
-                            <i class="bi bi-star-fill"><img src="{{asset('content/boutique/star.jpg')}}" width=50px" /></i>
+                            <i class="bi text-warning bi-star-fill"><img src="{{asset('css/star.jpg')}}" width=50px" /></i>
+                            <i class="bi text-warning bi-star-fill"><img src="{{asset('css/star.jpg')}}" width=50px" /></i>
+                            <i class="bi text-warning bi-star-fill"><img src="{{asset('css/star.jpg')}}" width=50px" /></i>
+                            <i class="bi text-warning bi-star-fill"><img src="{{asset('css/star.jpg')}}" width=50px" /></i>
+                            <i class="bi bi-star-fill"><img src="{{asset('css/star.jpg')}}" width=50px" /></i>
                             <span>4,2</span>
                         </li>
                         <li class="float-end gvi">
@@ -288,14 +288,14 @@
                     </ul>
                     <ul class="key-features mt-2">
                         <li><i class="bi bi-caret-right"></i> Ajouté Récemment</li>
-                        <li><i class="bi bi-caret-right"></i> Formation Complexe</li>
-                        <li><i class="bi bi-caret-right"></i> Nombreux Projets à faire</li>
-                        <li><i class="bi bi-caret-right"></i> Avancée</li>
+                        <li><i class="bi bi-caret-right"></i> service garanti</li>
+                        <li><i class="bi bi-caret-right"></i> Rapidité</li>
+                        <li><i class="bi bi-caret-right"></i> Fiabilité</li>
                     </ul>
                 </div>
             </div>
             <div class="row product-detail">
-               <h4>Détail de la formation:</h4>
+               <h4>Détail du service:</h4>
                 <p class="mb-3">{{ $formation->description }}</p>
             </div>
             <div class="row review">
@@ -305,11 +305,11 @@
                         <div class="col-md-12 align-items-center col-9 rcolm"> 
                             <div class="review">
                                 <li class="col-8 ratfac">
-                                     <i class="bi text-warning bi-star-fill"><img src="{{asset('content/boutique/star.jpg')}}" width=50px" /></i>
-                                     <i class="bi text-warning bi-star-fill"><img src="{{asset('content/boutique/star.jpg')}}" width=50px" /></i>
-                                     <i class="bi text-warning bi-star-fill"><img src="{{asset('content/boutique/star.jpg')}}" width=50px" /></i>
-                                     <i class="bi bi-star-fill"><img src="{{asset('content/boutique/star.jpg')}}" width=50px" /></i>
-                                     <i class="bi bi-star-fill"><img src="{{asset('content/boutique/star.jpg')}}" width=50px" /></i>
+                                     <i class="bi text-warning bi-star-fill"><img src="{{asset('css/star.jpg')}}" width=50px" /></i>
+                                     <i class="bi text-warning bi-star-fill"><img src="{{asset('css/star.jpg')}}" width=50px" /></i>
+                                     <i class="bi text-warning bi-star-fill"><img src="{{asset('css/star.jpg')}}" width=50px" /></i>
+                                     <i class="bi bi-star-fill"><img src="{{asset('css/star.jpg')}}" width=50px" /></i>
+                                     <i class="bi bi-star-fill"><img src="{{asset('css/star.jpg')}}" width=50px" /></i>
                                  </li>              
                             </div>
                             <h3 class="fs-6 fw-semi mt-2">Vinoth kumar
@@ -385,64 +385,64 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 foot-about">
-                        <h4>About US</h4>
+                        <h4>A Propos de Nous</h4>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit libero pellentesque libero interdum, id mattis felis dictum. Praesent eget lacus tempor justo efficitur malesuada. Cras ut suscipit nisi.</p>
+                        <p>La Brocante Dongmo est une brocante qui importe les marques de qualité Allemande. Elle est opère dans nombreux domaine à l'exemple du domaine électroménager et la vente du matériel informatique. Nos produits sont de qualités supérieures et avec une garantie de un mois.</p>
 
                         <ul>
-                            <li>23 Rose Stren Melbourn</li>
-                            <li>sales@smarteyeapps.com</li>
-                            <li>+91 876 766 554</li>
+                            <li>Montée Jouvence, descente Mario en face de Méa Bois</li>
+                            <li>faniedonfack@yahoo.fr</li>
+                            <li>652-61-31-09</li>
                         </ul>
                     </div>
 
                     <div class="col-md-3 foot-post">
-                        <h4>Latest Posts</h4>
+                        <h4>Dernières Publications</h4>
 
                         <div class="post-row">
                             <div class="image">
-                                <img src="assets/images/blog/blog_01.jpg" alt="">
+                                <img src="assets/images/blog/1.jpg" alt="">
                             </div>
-                            <div class="detail">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit </p>
+                            <div class="detail ps-2">
+                                <p>Retrouvez nos derniers produits dans la catégorie produit !!! </p>
                             </div>
                         </div>
 
                         <div class="post-row">
                             <div class="image">
-                                <img src="assets/images/blog/blog_02.jpg" alt="">
+                                <img src="assets/images/blog/7.jpg" alt="">
                             </div>
-                            <div class="detail">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit </p>
+                            <div class="detail p-2">
+                                <p>Chaque produit est d'origine Allemande!! </p>
                             </div>
                         </div>
 
                         <div class="post-row">
                             <div class="image">
-                                <img src="assets/images/blog/blog_03.jpg" alt="">
+                                <img src="assets/images/blog/6.jpg" alt="">
                             </div>
-                            <div class="detail">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit </p>
+                            <div class="detail ps-2">
+                                <p>Garantie de un (01) mois !! </p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-md-3 foot-services">
-                        <h4>Top Category</h4>
+                        <h4>Top Categorie</h4>
 
                         <ul>
-                            <li><a href="">Target Statergy</a></li>
-                            <li><a href="">Web Analytics</a></li>
-                            <li><a href="">Page Monitering</a></li>
-                            <li><a href="">Page Optimization</a></li>
-                            <li><a href="">Target Statergy</a></li>
-                            <li><a href="">Email Marketing</a></li>
+                            <li><a href="">Nos Produits</a></li>
+                            <li><a href="">Matériel Informatique</a></li>
+                            <li><a href="">Nos services</a></li>
+                            <li><a href="">Nous contactez</a></li>
+                            <li><a href="">A propos de nous</a></li>
+                            
                         </ul>
                     </div>
 
                     <div class="col-md-3 foot-news">
                         <h4>News Letter</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, vehicula eget eros. </p>
+                        <p>Soyez informé de nos dernières publication, en communicant votre adresse Email </p>
 
                         <div class="input-group mb-3">
                             <input type="text" class="form-control mb-0" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
@@ -465,7 +465,7 @@
     </footer>
     <div class="copy">
         <div class="container">
-            <a href="https://www.smarteyeapps.com/">2022 &copy; All Rights Reserved | Designed and Developed by Smarteyeapps.com</a>
+            <a href="https://www.smarteyeapps.com/">2024 &copy; All Rights Reserved | Designed and Developed by Brocante_Dongmo.com</a>
 
             <span>
                 <a href=""><i class="fab fa-github"></i></a>
@@ -484,12 +484,6 @@
     <script src="assets/plugins/scroll-fixed/jquery-scrolltofixed-min.js"></script>
     <script src="assets/plugins/testimonial/js/owl.carousel.min.js"></script>
     <script src="assets/js/script.js"></script>
-
-@section('script')
-    <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
-    <script src="{{ asset('js/jquery-3.2.1.min.js') }}"></script>
-    <script src="{{ asset('js/script.js') }}"></script>
-@endsection
 
 </html>
 @section('script')

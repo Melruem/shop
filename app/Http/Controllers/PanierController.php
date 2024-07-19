@@ -55,6 +55,11 @@ class PanierController extends Controller
         return view('cart', ['unique' => $unique, 'test' => $test]);
     }
 
+    public function ajouttt(): View
+    {
+        return view('ajout_operation');
+    }
+
     public function destroy(int $id, int $unique, int $test)
     {
 

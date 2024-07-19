@@ -7,7 +7,7 @@
         <meta charset="utf-8">
         <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title> Les entreprises Maelo</title>
+        <title> Brocante Dongmo</title>
         <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
         <link rel="stylesheet" href="{{ asset('css/all.min.css') }}">
         <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
@@ -41,21 +41,21 @@
                     <div class="row">
                         <div class="col-md-8">
                             <ul class="d-inline-flex pt-0 pt-md-2 fs-6">
-                                <li class="p-2 " ><i class="bi bi-envelope"></i> marcellin15kenfack@yahoo.fr</li>
+                                <li class="p-2 " ><i class="bi bi-envelope"></i> Email: faniedonfack@yahoo.fr</li>
                                 <li class="p-2 d-none d-md-block" style="background-color: purple; color: white;"><i class="bi bi-headphones"></i> 652 61 31 09</li>
                             </ul>
                         </div>
                         <div class="col-md-4 d-flex align-items-end">
                             <ul class="ms-auto d-inline-flex">
                                 @if(isset($test))
-                                <li class="p-2"><a  href="{{ route('log', [$unique, $test] ) }}"><button class="btn px-4 btn-danger">Login</button></a></li>
+                                <li class="p-2"><a  href="{{ route('log', [$unique, $test] ) }}"><button class="btn px-4 btn-danger" style="background-color: purple; color: white;">Login</button></a></li>
                                 @else
-                                <li class="p-2"><a  href="{{ route('log', [$p, $nul] ) }}"><button class="btn px-4 btn-danger">Login</button></a></li>
+                                <li class="p-2"><a  href="{{ route('log', [$p, $nul] ) }}"><button class="btn px-4 btn-danger" style="background-color: purple; color: white;">Login</button></a></li>
                                 @endif
                                 @if(isset($test))
-                                <li class="p-2"><a  href="{{ route('sign', [$unique, $test] ) }}"><button class="btn px-4 btn-outline-danger">Sign Up</button></a></li>
+                                <li class="p-2"><a  href="{{ route('sign', [$unique, $test] ) }}"><button class="btn px-4 btn-outline-danger" style="background-color: purple; color: white;">Sign Up</button></a></li>
                                 @else
-                                <li class="p-2"><a  href="{{ route('sign', [$p, $nul] ) }}"><button class="btn px-4 btn-outline-danger">Sign Up</button></a></li>
+                                <li class="p-2"><a  href="{{ route('sign', [$p, $nul] ) }}"><button class="btn px-4 btn-outline-danger" style="background-color: purple; color: white;">Sign Up</button></a></li>
                                 @endif
                             </ul>
                         </div>
@@ -67,7 +67,7 @@
                      <div class="row">
                          <div class="col-md-3 col-9 pt-1 pb-2">
                             <a href="index.html">
-                                <img src="{{asset('content/boutique/logoo.jpg')}}" />
+                                <img src="{{asset('css/logoo.JPG')}}" />
                             </a> 
                          </div>
                          <div class="col-md-6 d-none d-md-block pt-2">
@@ -83,16 +83,16 @@
                              @else
                             <a href="{{ route('panel', [$p, $nul] ) }}">
                             @endif
-                                 <button type="button" class="btn btn-light shadow-md border position-relative">
+                                 <button type="button" class="btn btn-light shadow-md border position-relative" style="background-color: purple; color: white;">
                                   <i class="bi fs-4 bi-basket"></i>
-                                  <span class="position-absolute fs-6 top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                  <span class="position-absolute fs-6 top-0 start-100 translate-middle badge rounded-pill bg-danger" style="background-color: purple; color: white;">
                                     @if(isset($test))
                                         {{$test}}
                                     @else
                                         0
                                     @endif
                                   </span>
-                                  <img src="{{asset('content/boutique/cart.jpg')}}" width=100px" />
+                                  <img src="{{asset('css/cart.jpg')}}" width=100px" />
                                 </button>
                              </a>
                             
@@ -106,17 +106,17 @@
                 <div class="col-md-4 d-flex align-items-end">
                             <ul class="ms-auto d-inline-flex">
                                 
-                                <li class="p-2"><button class="btn px-4 btn-danger">Bienvenue {{ Auth::user()->name}} !!</button></li>
+                                <li class="p-2"><button class="btn px-4 btn-danger" style="background-color: purple; color: white;">Bienvenue {{ Auth::user()->name}} !!</button></li>
                                 
-                                <li class="p-2"><a  href="{{ route('logout') }}"><button class="btn px-4 btn-danger">Deconnexion</button></a></li>
+                                <li class="p-2"><a  href="{{ route('logout') }}" style="background-color: purple; color: white;"><button class="btn px-4 btn-danger">Deconnexion</button></a></li>
                                 
                             </ul>
                 </div>
              @endif
             
 
-            <div class="menu-bar bg-danger container-fluid border-top">
-                <div class="container">
+            <div class="menu-bar bg-danger container-fluid border-top" style="background-color: purple; color: white;">
+                <div class="container" style="background-color: purple; color: white;">
                    <h6 class="d-md-none text-white p-3 mb-0 fw-bold">Menu 
                   <a class="text-white" data-bs-target="#menu" data-bs-toggle="collapse" aria-expanded="false" aria-controls="menu"><i class="bi cp bi-list float-end fs-1 dmji"></i></a> 
                    </h6>
@@ -136,10 +136,10 @@
                         </li>
                         @endif
                         @if(isset($test))
-                          <li class="p-21 px-4"><a class="text-white" href="{{ route('session', [$p, $test]) }}">Nos Formations <i class="bi pt-2 bi-chevron-down"></i></a> 
+                          <li class="p-21 px-4"><a class="text-white" href="{{ route('session', [$p, $test]) }}">Nos Services <i class="bi pt-2 bi-chevron-down"></i></a> 
                         </li>
                         @else
-                        <li class="p-21 px-4"><a class="text-white" href="{{ route('session', [$p, $nul]) }}">Nos Formations <i class="bi pt-2 bi-chevron-down"></i></a> 
+                        <li class="p-21 px-4"><a class="text-white" href="{{ route('session', [$p, $nul]) }}">Nos Services <i class="bi pt-2 bi-chevron-down"></i></a> 
                         </li>
                         @endif
                         @if(isset($test))
@@ -165,14 +165,14 @@
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="{{asset('content/boutique/carrousel 5.png')}}" />
+                  <img src="{{asset('css/carrousel 5.jpg')}}" />
                 </div>
                 <div class="carousel-item">
-                  <img src="{{asset('content/boutique/carrousel 6.png')}}"  />
+                  <img src="{{asset('css/carrousel 6.jpg')}}"  />
                 </div>
 
                 <div class="carousel-item">
-                  <img src="{{asset('content/boutique/carrousel 3.jpg')}}"  />
+                  <img src="{{asset('css/carrousel 3.jpg')}}"  />
                 </div>
                
               </div>
@@ -193,8 +193,8 @@
             <div class="container-xl">
                 <div class="section-tile row">
                    <div class="col-md-10 text-center mx-auto">
-                         <h2>Produits Populaires</h2>
-                        <p>Chaque produit est de qualité supérieure, livrée avec garantie.</p>
+                         <h2>Liste de nos Produits</h2>
+                        <p>Chaque produit est d'origine Allemande et de qualité supérieure. Garantie de 03 Mois.</p>
                    </div>
                 </div>
                 <div class="row mt-5">
@@ -215,15 +215,15 @@
                             </div>
                             <div class="detail p-2">
                                 <h4 class="mb-1 fs-5 fw-bold">{{ $produit->nom }}</h4>
-                                <b class="fs-4 text-danger">CFA {{ $produit->prix }}</b>
+                                <b class="fs-4 text-danger" style="background-color: purple; color: white;">CFA {{ $produit->prix }}</b>
                                 
                                 
                     <ul class="mt-0 mt-2 mb-3 vgth">
                         <li class="fs-8">
-                            <i class="bi text-warning bi-star-fill"><img src="{{asset('content/boutique/star.jpg')}}" width=50pxpx" /></i>
-                            <i class="bi text-warning bi-star-fill"><img src="{{asset('content/boutique/star.jpg')}}" width=50px" /></i>
-                            <i class="bi text-warning bi-star-fill"><img src="{{asset('content/boutique/star.jpg')}}" width=50px" /></i>
-                            <i class="bi text-warning bi-star-fill"><img src="{{asset('content/boutique/star.jpg')}}" width=50px" /></i>
+                            <i class="bi text-warning bi-star-fill"><img src="{{asset('css/star.jpg')}}" width=50pxpx" /></i>
+                            <i class="bi text-warning bi-star-fill"><img src="{{asset('css/star.jpg')}}" width=50px" /></i>
+                            <i class="bi text-warning bi-star-fill"><img src="{{asset('css/star.jpg')}}" width=50px" /></i>
+                            <i class="bi text-warning bi-star-fill"><img src="{{asset('css/star.jpg')}}" width=50px" /></i>
                             
                             
                         </li>
@@ -235,22 +235,22 @@
                                     <div class="col-md-6">
                                         @if(isset($test))
                                         <a href="{{ route('acheter', [$produit->id, $p, $test] ) }}">
-                                            <button class="btn mb-2 fw-bold w-100 btn-danger">Achetez</button>
+                                            <button class="btn mb-2 fw-bold w-100 btn-danger" style="background-color: purple; color: white;">Achetez</button>
                                         </a>
                                         @else
                                         <a href="{{ route('acheter', [$produit->id, $p, $nul] ) }}">
-                                            <button class="btn mb-2 fw-bold w-100 btn-danger">Achetez</button>
+                                            <button class="btn mb-2 fw-bold w-100 btn-danger" style="background-color: purple; color: white;">Achetez</button>
                                         </a>
                                         @endif
                                     </div>
                                     <div class="col-md-6">
                                         @if(isset($test))
                                         <a href="{{ route('increment', [$produit->id, $p, $test] ) }}">
-                                          <button class="btn fw-bold w-100 btn-outline-danger">Ajouter au Panier</button>
+                                          <button class="btn fw-bold w-100 btn-outline-danger" style="background-color: purple; color: white;">Ajouter au Panier</button>
                                         </a>
                                         @else
                                         <a href="{{ route('increment', [$produit->id, $p, $nul] ) }}">
-                                          <button class="btn fw-bold w-100 btn-outline-danger">Ajouter au Panier</button>
+                                          <button class="btn fw-bold w-100 btn-outline-danger" style="background-color: purple; color: white;">Ajouter au Panier</button>
                                         </a>
                                         @endif
                                     </div>
@@ -276,8 +276,8 @@
             <div class="container">
                  <div class="section-tile row">
                    <div class="col-md-10 text-center mx-auto">
-                         <h2>Nos Formations</h2>
-                        <p>Sous la tutelle de nos experts, Vous allez acquérir un savoir-faire respectant les critères complexes du milieu professionnel.</p>
+                         <h2>Nos Services</h2>
+                        <p>La Brocante Dongmo réponds à toutes vos attentes. Chez nous le client est Roi.</p>
                    </div>
                 </div>
 <div class="row mt-5">
@@ -298,14 +298,14 @@
                             </div>
                             <div class="detail p-2">
                                 <h4 class="mb-1 fs-5 fw-bold">{{ $formation->nom }}</h4>
-                                <b class="fs-4 text-danger">CFA {{ $formation->prix }}</b>
+                                
                                 
                                 
                     <ul class="mt-0 mt-2 mb-3 vgth">
                         <li class="fs-8">
-                            <i class="bi text-warning bi-star-fill"><img src="{{asset('content/boutique/star.jpg')}}" width=50pxpx" /></i>
-                            <i class="bi text-warning bi-star-fill"><img src="{{asset('content/boutique/star.jpg')}}" width=50px" /></i>
-                            <i class="bi text-warning bi-star-fill"><img src="{{asset('content/boutique/star.jpg')}}" width=50px" /></i>
+                            <i class="bi text-warning bi-star-fill"><img src="{{asset('css/star.jpg')}}" width=50pxpx" /></i>
+                            <i class="bi text-warning bi-star-fill"><img src="{{asset('css/star.jpg')}}" width=50px" /></i>
+                            <i class="bi text-warning bi-star-fill"><img src="{{asset('css/star.jpg')}}" width=50px" /></i>
                             
                            
                             
@@ -317,17 +317,14 @@
                                 <div class="row pt-2">
                                     <div class="col-md-6">
                                     @if(isset($test))
-                                        <a href="{{ route('file', [$formation->id, $p, $test] ) }}">
-                                            <button class="btn mb-2 fw-bold w-100 btn-danger">S'inscrire</button>
+                                        <a href="">
+                                            <button class="btn mb-2 fw-bold w-100 btn-danger" style="background-color: purple; color: white;">Service Garanti</button>
                                         </a>
                                     @else
-                                        <a href="{{ route('file', [$formation->id, $p, $nul] ) }}">
-                                            <button class="btn mb-2 fw-bold w-100 btn-danger">S'inscrire</button>
+                                        <a href="">
+                                            <button class="btn mb-2 fw-bold w-100 btn-danger" style="background-color: purple; color: white;">Service Garanti</button>
                                         </a>
                                     @endif
-                                    </div>
-                                    <div class="col-md-6">
-                                        <button class="btn fw-bold w-100 btn-outline-danger">Durée : {{ $formation->durée }} </button>
                                     </div>
                                 </div>
                             </div>
@@ -348,12 +345,12 @@
                     <div class="col-md-3 foot-about">
                         <h4>A Propos de Nous</h4>
 
-                        <p>Les Entreprises Maelo est une startup qui vous propose des services de qualité dans le domaine de la vente du matériel informatique et les formations de haut niveau avec certification reconnue.</p>
+                        <p>La Brocante Dongmo est une brocante qui importe les marques de qualité Allemande. Elle est opère dans nombreux domaine à l'exemple du domaine électroménager et la vente du matériel informatique. Nos produits sont de qualités supérieures et avec une garantie de un mois.</p>
 
                         <ul>
                             <li>Montée Jouvence, descente Mario en face de Méa Bois</li>
-                            <li>marcellin15kenfack@yahoo.fr</li>
-                            <li>677 78 30 43</li>
+                            <li>faniedonfack@yahoo.fr</li>
+                            <li>652-61-31-09</li>
                         </ul>
                     </div>
 
@@ -365,7 +362,7 @@
                                 <img src="assets/images/blog/1.jpg" alt="">
                             </div>
                             <div class="detail ps-2">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit </p>
+                                <p>Retrouvez nos derniers produits dans la catégorie produit !!! </p>
                             </div>
                         </div>
 
@@ -374,7 +371,7 @@
                                 <img src="assets/images/blog/7.jpg" alt="">
                             </div>
                             <div class="detail p-2">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit </p>
+                                <p>Chaque produit est d'origine Allemande!! </p>
                             </div>
                         </div>
 
@@ -383,7 +380,7 @@
                                 <img src="assets/images/blog/6.jpg" alt="">
                             </div>
                             <div class="detail ps-2">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit </p>
+                                <p>Garantie de un (01) mois !! </p>
                             </div>
                         </div>
                     </div>
@@ -392,7 +389,7 @@
                         <h4>Top Categorie</h4>
 
                         <ul>
-                            <li><a href="">Nos Formations</a></li>
+                            <li><a href="">Nos Produits</a></li>
                             <li><a href="">Matériel Informatique</a></li>
                             <li><a href="">Nos services</a></li>
                             <li><a href="">Nous contactez</a></li>
@@ -426,7 +423,7 @@
     </footer>
     <div class="copy">
         <div class="container">
-            <a href="https://www.smarteyeapps.com/">2024 &copy; All Rights Reserved | Designed and Developed by Les Entreprises Maelo.com</a>
+            <a href="https://www.smarteyeapps.com/">2024 &copy; All Rights Reserved | Designed and Developed by Brocante_Dongmo.com</a>
 
             <span>
                 <a href=""><i class="fab fa-github"></i></a>
