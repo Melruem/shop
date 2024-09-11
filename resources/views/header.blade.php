@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title> Brocante Dongmo</title>
+        <title> Lin_Beauty</title>
         <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
         <link rel="stylesheet" href="{{ asset('css/all.min.css') }}">
         <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
@@ -17,10 +17,10 @@
     </head>
     <bod>
         <header class="container-fluid bg-white">
-            <div class="header-top bg-gray  border-bottom"style="background-color: purple; color: white;">
-                <div class="container"style="background-color: purple; color: white;">
-                    <div class="row"style="background-color: purple; color: white;">
-                        <div class="col-md-4 d-flex align-items-end"style="background-color: purple; color: white;">
+            <div class="header-top bg-gray  border-bottom"style="background-color: white; color: white;">
+                <div class="container"style="background-color: white; color: white;">
+                    <div class="row"style="background-color: white; color: white;">
+                        <div class="col-md-4 d-flex align-items-end"style="background-color: white; color: white;">
                             <ul class="ms-auto d-inline-flex">
                                 
                                 <li class="p-2"><a  href=""><button class="btn px-4 btn-danger">TABLEAU DE BORD / DASHBOARD</button></a></li>
@@ -40,7 +40,7 @@
                      <div class="row">
                          <div class="col-md-3 col-9 pt-1 pb-2">
                             <a href="index.html">
-                                <img src="{{asset('css/logoo.JPG')}}" />
+                                <img src="{{asset('logo_lin.JPG')}}" />
                             </a> 
                          </div>
                             

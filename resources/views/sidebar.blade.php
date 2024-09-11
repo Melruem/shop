@@ -3,8 +3,8 @@
     <nav >
 
 
-        <div class="menu-bar bg-danger container-fluid border-top"style="background-color: purple; color: white;">
-            <div class="container"style="background-color: purple; color: white;">
+        <div class="menu-bar bg-danger container-fluid border-top"style="background-color: white; color: white;">
+            <div class="container"style="background-color: white; color: white;">
             <ul id="menu" class=" navcol fw-bold d-none d-md-inline-flex">
                 <li class="p-21 px-4" >
                     <a class="text-white" href="{{ route('dashboard') }}"> <i class="bi pt-2 bi-chevron-down"></i>@lang('Tableau de bord ') </a>

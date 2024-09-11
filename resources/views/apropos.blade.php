@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title> Brocante Dongmo</title>
+        <title> Lin_Beauty</title>
         <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
         <link rel="stylesheet" href="{{ asset('css/all.min.css') }}">
         <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
@@ -17,19 +17,19 @@
     </head>
     <bod>
         <header class="container-fluid bg-white">
-            <div class="header-top bg-gray  border-bottom">
+            <div class="header-top bg-gray  border-bottom" style="background-color: white; color: white;">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8">
                             <ul class="d-inline-flex pt-0 pt-md-2 fs-6">
-                                <li class="p-2 "><i class="bi bi-envelope"></i> Email: faniedonfack@yahoo.fr</li>
-                                <li class="p-2 d-none d-md-block"><i class="bi bi-headphones"></i> 652 61 31 09</li>
+                                <li class="p-2 "><i class="bi bi-envelope"></i> Email: lindsaytiomo@gmail.com</li>
+                                <li class="p-2 d-none d-md-block" style="background-color: white; color: white;"><i class="bi bi-headphones"></i> 674 83 53 76</li>
                             </ul>
                         </div>
                         <div class="col-md-4 d-flex align-items-end">
                             <ul class="ms-auto d-inline-flex">
-                                <li class="p-2"><a target="_blank" href=""><button class="btn px-4 btn-danger" style="background-color: purple; color: white;">Login</button></a></li>
-                                <li class="p-2"><a target="_blank" href=""><button class="btn px-4 btn-outline-danger" style="background-color: purple; color: white;">Sign Up</button></a></li>
+                                <li class="p-2"><a target="_blank" href=""><button class="btn px-4 btn-danger" style="background-color: black; color: white;">Login</button></a></li>
+                                <li class="p-2"><a target="_blank" href=""><button class="btn px-4 btn-outline-danger" style="background-color: black; color: white;">Sign Up</button></a></li>
                             </ul>
                         </div>
                     </div>
@@ -40,7 +40,7 @@
                      <div class="row">
                          <div class="col-md-3 col-9 pt-1 pb-2">
                             <a href="index.html">
-                                <img src="{{asset('css/logoo.JPG')}}" />
+                                <img src="{{asset('css/logo_lin.JPG')}}" />
                             </a> 
                          </div>
                          <div class="col-md-6 d-none d-md-block pt-2">
@@ -54,9 +54,9 @@
                              <a href="{{ route('panel', [$unique, $test] ) }}">
                             
                             @endif
-                                 <button type="button" class="btn btn-light shadow-md border position-relative">
+                                 <button type="button" class="btn btn-light shadow-md border position-relative" style="background-color: black; color: white;">
                                   <i class="bi fs-4 bi-basket"></i>
-                                  <span class="position-absolute fs-6 top-0 start-100 translate-middle badge rounded-pill bg-danger"style="background-color: purple; color: white;">
+                                  <span class="position-absolute fs-6 top-0 start-100 translate-middle badge rounded-pill "style="background-color: black; color: white;">
                                     @if(isset($test))
                                         {{$test}}
                                     @else
@@ -75,8 +75,8 @@
             </div>
             
 
-            <div class="menu-bar bg-danger container-fluid border-top" style="background-color: purple; color: white;">
-                <div class="container" style="background-color: purple; color: white;">
+            <div class="menu-bar bg-danger container-fluid border-top" style="background-color: black; color: white;">
+                <div class="container" style="background-color: black; color: white;">
                    <h6 class="d-md-none text-white p-3 mb-0 fw-bold">Menu 
                   <a class="text-white" data-bs-target="#menu" data-bs-toggle="collapse" aria-expanded="false" aria-controls="menu"><i class="bi cp bi-list float-end fs-1 dmji"></i></a> 
                    </h6>
@@ -102,9 +102,9 @@
                     <img src="{{asset('css/brocante.jpg')}}" />
                 </div>
                 <div class="col-md-6 detail ps-4 ">
-                    <h2>A Propos de la Brocante Dongmo</h2>
-                    <p>Nous sommes une Brocante professionnelle innovante et à la pointe de la technologie qui offre à sa clientèle des services de qualité et à moindre cout.</p>
-                    <p>Nous offrons différents services dans des domaines divers : La vente du matériel informatique, la vente du matériel électroménager, la maintenance et le dépannage du matériel informatique et électroménager.</p>
+                    <h2>A Propos de Lin_Beauty Enterprise</h2>
+                    <p>Nous sommes une Boutique de Cosmétique innovante qui propose à sa clientèle des produits esthétiques de qualité et adapté pour tout type de peau. Faites nous confiance pour améliorer l'apparence de votre peau.</p>
+                    <p>Notre Service de livraison est fiable et ultra-rapide</p>
                 </div>
             </div>
         </div>
@@ -201,19 +201,19 @@
 
 
 
-        <footer>
+         <footer>
         <div class="inner">
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 foot-about">
                         <h4>A Propos de Nous</h4>
 
-                        <p>La Brocante Dongmo est une brocante qui importe les marques de qualité Allemande. Elle est opère dans nombreux domaine à l'exemple du domaine électroménager et la vente du matériel informatique. Nos produits sont de qualités supérieures et avec une garantie de un mois.</p>
+                        <p>Lin_Beauty Enterprise est une boutique de vente des produits esthétiques en gros et détail qui importe les marques cosmétiques  de qualité Allemande. Elle est opère dans nombreux domaine à l'exemple du domaine cosmétique et des soins corporels. Nos produits sont adaptés à tout type de peau.</p>
 
                         <ul>
-                            <li>Montée Jouvence, descente Mario en face de Méa Bois</li>
-                            <li>faniedonfack@yahoo.fr</li>
-                            <li>652-61-31-09</li>
+                            <li>Montée Jouvence</li>
+                            <li>lindsaytiomo@gmail.com</li>
+                            <li>674-83-53-76</li>
                         </ul>
                     </div>
 
@@ -243,7 +243,7 @@
                                 <img src="assets/images/blog/6.jpg" alt="">
                             </div>
                             <div class="detail ps-2">
-                                <p>Garantie de un (01) mois !! </p>
+                                <p>Adapté à tout type de peau !! </p>
                             </div>
                         </div>
                     </div>
@@ -253,7 +253,7 @@
 
                         <ul>
                             <li><a href="">Nos Produits</a></li>
-                            <li><a href="">Matériel Informatique</a></li>
+                            <li><a href="">Produit Cosmétiques</a></li>
                             <li><a href="">Nos services</a></li>
                             <li><a href="">Nous contactez</a></li>
                             <li><a href="">A propos de nous</a></li>
@@ -286,7 +286,7 @@
     </footer>
     <div class="copy">
         <div class="container">
-            <a href="https://www.smarteyeapps.com/">2024 &copy; All Rights Reserved | Designed and Developed by Brocante_Dongmo.com</a>
+            <a href="https://www.smarteyeapps.com/">2024 &copy; All Rights Reserved | Designed and Developed by Lin_Beauty</a>
 
             <span>
                 <a href=""><i class="fab fa-github"></i></a>

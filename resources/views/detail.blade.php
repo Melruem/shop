@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Brocante Dongmo</title>
+        <title>Lin_Beauty</title>
         <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
         <link rel="stylesheet" href="{{ asset('css/all.min.css') }}">
         <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
@@ -17,19 +17,19 @@
     </head>
     <bod>
         <header class="container-fluid bg-white">
-            <div class="header-top bg-gray  border-bottom">
+            <div class="header-top bg-gray  border-bottom" style="background-color: black; color: white;">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8">
                             <ul class="d-inline-flex pt-0 pt-md-2 fs-6">
-                                <li class="p-2 "><i class="bi bi-envelope"></i> Email: faniedonfack@yahoo.fr</li>
-                                <li class="p-2 d-none d-md-block"><i class="bi bi-headphones"></i> 652 61 31 09</li>
+                                <li class="p-2 "><i class="bi bi-envelope"></i> Email: lindsaytiomo@gmail.com</li>
+                                <li class="p-2 d-none d-md-block" style="background-color: black; color: white;"><i class="bi bi-headphones"></i> 674 83 53 76</li>
                             </ul>
                         </div>
                         <div class="col-md-4 d-flex align-items-end">
                             <ul class="ms-auto d-inline-flex">
-                                <li class="p-2"><a target="_blank" href=""><button class="btn px-4 btn-danger"style="background-color: purple; color: white;">Login</button></a></li>
-                                <li class="p-2"><a target="_blank" href=""><button class="btn px-4 btn-outline-danger"style="background-color: purple; color: white;">Sign Up</button></a></li>
+                                <li class="p-2"><a target="_blank" href=""><button class="btn px-4 btn-danger"style="background-color: black; color: white;">Login</button></a></li>
+                                <li class="p-2"><a target="_blank" href=""><button class="btn px-4 btn-outline-danger"style="background-color: black; color: white;">Sign Up</button></a></li>
                             </ul>
                         </div>
                     </div>
@@ -40,7 +40,7 @@
                      <div class="row">
                          <div class="col-md-3 col-9 pt-1 pb-2">
                             <a href="index.html">
-                                <img src="{{asset('css/logoo.JPG')}}" />
+                                <img src="{{asset('css/logo_lin.JPG')}}" />
                             </a> 
                          </div>
                          <div class="col-md-6 d-none d-md-block pt-2">
@@ -54,9 +54,9 @@
                              <a href="{{ route('panel', [$unique, $test] ) }}">
                             
                             @endif
-                                 <button type="button" class="btn btn-light shadow-md border position-relative">
+                                 <button type="button" class="btn btn-light shadow-md border position-relative" style="background-color: white; color: white;">
                                   <i class="bi fs-4 bi-basket"></i>
-                                  <span class="position-absolute fs-6 top-0 start-100 translate-middle badge rounded-pill bg-danger"style="background-color: purple; color: white;">
+                                  <span class="position-absolute fs-6 top-0 start-100 translate-middle badge rounded-pill "style="background-color: white; color: white;">
                                     @if(isset($test))
                                         {{$test}}
                                     @else
@@ -75,8 +75,8 @@
             </div>
             
 
-            <div class="menu-bar bg-danger container-fluid border-top"style="background-color: purple; color: white;">
-                <div class="container"style="background-color: purple; color: white;">
+            <div class="menu-bar bg-danger container-fluid border-top"style="background-color: white; color: white;">
+                <div class="container"style="background-color: white; color: white;">
                    <h6 class="d-md-none text-white p-3 mb-0 fw-bold">Menu 
                   <a class="text-white" data-bs-target="#menu" data-bs-toggle="collapse" aria-expanded="false" aria-controls="menu"><i class="bi cp bi-list float-end fs-1 dmji"></i></a> 
                    </h6>
@@ -101,10 +101,10 @@
             <div class="container">
                 <div class="row">
                     @isset($produit)
-                    <h2 class="text-start">{{ $produit->nom }}</h2>
+                    <h2 class="text-start" style="background-color: white; color: white;">{{ $produit->nom }}</h2>
                     @endisset
                     @isset($formation)
-                    <h2 class="text-start">{{ $formation->nom }}</h2>
+                    <h2 class="text-start" style="background-color: white; color: white;">{{ $formation->nom }}</h2>
                     @endisset
                     <ul>
                         <li> <a href="#"><i class="bi bi-house-door"></i> Home</a></li>
@@ -124,10 +124,10 @@
                 <div class="col-md-5 text-center">
                     <img src="{{asset($produit->image)}}" width="500px" />
                 </div>
-                <div class="col-md-7"style="background-color: purple; color: white;">
-                    <h2>{{ $produit->nom }}</h2>
-                    <p>Appartenant à la dernière génération, ce produit vous donnera une entière satisfaction et sera à la hauteur de vos attentes. Il vous ai aussi offert un mois de garanti.</p>
-                    <b class="fs-3 py-4 text-danger"style="background-color: purple; color: white;">Prix : CFA {{ $produit->prix }}</b>
+                <div class="col-md-7"style="background-color: white; color: white;">
+                    <h2 style="background-color: white; color: white;">{{ $produit->nom }}</h2>
+                    <p>Ce produit cosmétique adapté à tout type de peaux, et assurera sa protection.</p>
+                    <b class="fs-3 py-4 text-danger" style="background-color: white; color: white;">Prix : CFA {{ $produit->prix }}</b>
                      
                      <ul class="mt-0 mt-2 mb-3 vgth">
                         <li class="fs-8">
@@ -154,28 +154,28 @@
                                     <div class="col-md-6">
                                         @if(isset($test))
                                         <a href="{{ route('acheter', [$produit->id, $unique, $test] ) }}">
-                                            <button class="btn mb-2 fw-bold w-100 btn-danger"style="background-color: purple; color: white;">Achetez</button>
+                                            <button class="btn mb-2 fw-bold w-100 btn-danger"style="background-color: white; color: white;">Achetez</button>
                                         </a>
                                         @else
                                         <a href="{{ route('acheter', [$produit->id, $unique, $nul] ) }}">
-                                            <button class="btn mb-2 fw-bold w-100 btn-danger"style="background-color: purple; color: white;">Achetez</button>
+                                            <button class="btn mb-2 fw-bold w-100 btn-danger"style="background-color: white; color: white;">Achetez</button>
                                         </a>
                                         @endif
                                     </div>
                                     <div class="col-md-6">
                                         @if(isset($test))
                                         <a href="{{ route('increment', [$produit->id, $unique, $test] ) }}">
-                                          <button class="btn fw-bold w-100 btn-outline-danger"style="background-color: purple; color: white;">Ajouter au Panier</button>
+                                          <button class="btn fw-bold w-100 btn-outline-danger"style="background-color: white; color: white;">Ajouter au Panier</button>
                                         </a>
                                         @else
                                         <a href="{{ route('increment', [$produit->id, $unique, $nul] ) }}">
-                                          <button class="btn fw-bold w-100 btn-outline-danger"style="background-color: purple; color: white;">Ajouter au Panier</button>
+                                          <button class="btn fw-bold w-100 btn-outline-danger"style="background-color: white; color: white;">Ajouter au Panier</button>
                                         </a>
                                         @endif
                                     </div>
              </div>
             <div class="row product-detail">
-               <h4>Détail du Produit :</h4>
+               <h4 style="background-color: white; color: white;">Détail du Produit :</h4>
                 <p class="mb-3">{{ $produit->description }}</p>
             </div>
             <div class="row review">
@@ -198,7 +198,7 @@
                             </h3>
 
                             <div class="review-text">
-                                 Fonctionne Parfaitement !
+                                 Idéal pour ma peau !
                             </div>
                         </div>
                         <div class="col-md-2">
@@ -269,8 +269,8 @@
                     <img src="{{asset($formation->image)}}" width="500px" />
                 </div>
                 <div class="col-md-7">
-                    <h2>{{ $formation->nom }}</h2>
-                    <p>Service executé avec une fiablilité et une rapidité notoire par nos expertys..</p>
+                    <h2 style="background-color: white; color: white;">{{ $formation->nom }}</h2>
+                    <p style="background-color: white; color: white;">Service executé avec une fiablilité et une rapidité notoire par nos experts..</p>
                     
                      
                      <ul class="mt-0 mt-2 mb-3 vgth">
@@ -296,11 +296,11 @@
             </div>
             <div class="row product-detail">
                <h4>Détail du service:</h4>
-                <p class="mb-3">{{ $formation->description }}</p>
+                <p class="mb-3" style="background-color: white; color: white;">{{ $formation->description }}</p>
             </div>
             <div class="row review">
                 <div class="col-md-8">
-                     <h4>Appréciation de la formation</h4>
+                     <h4 style="background-color: white; color: white;">Appréciation du produit</h4>
                      <div class="row m-0 reviewrow p-3 px-0 border-bottom">
                         <div class="col-md-12 align-items-center col-9 rcolm"> 
                             <div class="review">
@@ -318,7 +318,7 @@
                             </h3>
 
                             <div class="review-text">
-                                 Fonctionne Parfaitement !
+                                 Parfait pour ma peau !
                             </div>
                         </div>
                         <div class="col-md-2">
@@ -380,19 +380,19 @@
             </div>
         </div>
     @endisset    
-    <footer>
+     <footer>
         <div class="inner">
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 foot-about">
                         <h4>A Propos de Nous</h4>
 
-                        <p>La Brocante Dongmo est une brocante qui importe les marques de qualité Allemande. Elle est opère dans nombreux domaine à l'exemple du domaine électroménager et la vente du matériel informatique. Nos produits sont de qualités supérieures et avec une garantie de un mois.</p>
+                        <p>Lin_Beauty Enterprise est une boutique de vente des produits esthétiques en gros et détail qui importe les marques cosmétiques  de qualité Allemande. Elle est opère dans nombreux domaine à l'exemple du domaine cosmétique et des soins corporels. Nos produits sont adaptés à tout type de peau.</p>
 
                         <ul>
-                            <li>Montée Jouvence, descente Mario en face de Méa Bois</li>
-                            <li>faniedonfack@yahoo.fr</li>
-                            <li>652-61-31-09</li>
+                            <li>Montée Jouvence</li>
+                            <li>lindsaytiomo@gmail.com</li>
+                            <li>674-83-53-76</li>
                         </ul>
                     </div>
 
@@ -422,7 +422,7 @@
                                 <img src="assets/images/blog/6.jpg" alt="">
                             </div>
                             <div class="detail ps-2">
-                                <p>Garantie de un (01) mois !! </p>
+                                <p>Adapté à tout type de peau !! </p>
                             </div>
                         </div>
                     </div>
@@ -432,7 +432,7 @@
 
                         <ul>
                             <li><a href="">Nos Produits</a></li>
-                            <li><a href="">Matériel Informatique</a></li>
+                            <li><a href="">Produit Cosmétiques</a></li>
                             <li><a href="">Nos services</a></li>
                             <li><a href="">Nous contactez</a></li>
                             <li><a href="">A propos de nous</a></li>
@@ -465,7 +465,7 @@
     </footer>
     <div class="copy">
         <div class="container">
-            <a href="https://www.smarteyeapps.com/">2024 &copy; All Rights Reserved | Designed and Developed by Brocante_Dongmo.com</a>
+            <a href="https://www.smarteyeapps.com/">2024 &copy; All Rights Reserved | Designed and Developed by Lin_Beauty.com</a>
 
             <span>
                 <a href=""><i class="fab fa-github"></i></a>

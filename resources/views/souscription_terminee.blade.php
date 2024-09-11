@@ -8,7 +8,7 @@
         <meta charset="utf-8">
         <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title> Brocante Dongmo</title>
+        <title> Lin_Beauty</title>
         <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
         <link rel="stylesheet" href="{{ asset('css/all.min.css') }}">
         <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
@@ -24,9 +24,9 @@
 @endsection
 
 @section('content')
-     <div class="container-fluid big-padding about-cover"style="background-color: purple; color: white;">
-        <div class="container"style="background-color: purple; color: white;">
-            <div class="row"style="background-color: purple; color: white;">
+     <div class="container-fluid big-padding about-cover"style="background-color: black; color: white;">
+        <div class="container"style="background-color: black; color: white;">
+            <div class="row"style="background-color: black; color: white;">
                 <div class="col-md-10 mx-auto">
                     <table class="table bg-white shadow-md" >
                         <tr>
@@ -83,19 +83,19 @@
     </div>
 
 
-<footer>
+ <footer>
         <div class="inner">
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 foot-about">
                         <h4>A Propos de Nous</h4>
 
-                        <p>La Brocante Dongmo est une brocante qui importe les marques de qualité Allemande. Elle est opère dans nombreux domaine à l'exemple du domaine électroménager et la vente du matériel informatique. Nos produits sont de qualités supérieures et avec une garantie de un mois.</p>
+                        <p>Lin_Beauty Enterprise est une boutique de vente des produits esthétiques en gros et détail qui importe les marques cosmétiques  de qualité Allemande. Elle est opère dans nombreux domaine à l'exemple du domaine cosmétique et des soins corporels. Nos produits sont adaptés à tout type de peau.</p>
 
                         <ul>
-                            <li>Montée Jouvence, descente Mario en face de Méa Bois</li>
-                            <li>faniedonfack@yahoo.fr</li>
-                            <li>652-61-31-09</li>
+                            <li>Montée Jouvence</li>
+                            <li>lindsaytiomo@gmail.com</li>
+                            <li>674-83-53-76</li>
                         </ul>
                     </div>
 
@@ -125,7 +125,7 @@
                                 <img src="assets/images/blog/6.jpg" alt="">
                             </div>
                             <div class="detail ps-2">
-                                <p>Garantie de un (01) mois !! </p>
+                                <p>Adapté à tout type de peau !! </p>
                             </div>
                         </div>
                     </div>
@@ -135,7 +135,7 @@
 
                         <ul>
                             <li><a href="">Nos Produits</a></li>
-                            <li><a href="">Matériel Informatique</a></li>
+                            <li><a href="">Produit Cosmétiques</a></li>
                             <li><a href="">Nos services</a></li>
                             <li><a href="">Nous contactez</a></li>
                             <li><a href="">A propos de nous</a></li>
@@ -168,7 +168,7 @@
     </footer>
     <div class="copy">
         <div class="container">
-            <a href="https://www.smarteyeapps.com/">2024 &copy; All Rights Reserved | Designed and Developed by Brocante_Dongmo.com</a>
+            <a href="https://www.smarteyeapps.com/">2024 &copy; All Rights Reserved | Designed and Developed by Lin_Beauty</a>
 
             <span>
                 <a href=""><i class="fab fa-github"></i></a>

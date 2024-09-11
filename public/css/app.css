@@ -2100,6 +2100,19 @@ progress {
   padding-left: 0;
 }
 
+.bg-white p-2 shadow-md{
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.bg-white p-2 shadow-md:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
 .form-control-sm {
   min-height: calc(1.6em + 0.5rem + 2px);
   padding: 0.25rem 0.5rem;
